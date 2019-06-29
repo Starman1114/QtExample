@@ -1,0 +1,4 @@
+圆角;border-radius;1;-1;0;px; 
+样式;border-style;0;3;not specified;;
+颜色;border-color;2;-1;not specified;;
+宽度;border-width;1;-1;0;px;

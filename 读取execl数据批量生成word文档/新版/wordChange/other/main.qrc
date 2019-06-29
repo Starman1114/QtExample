@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/excel_Image.jpg</file>
+		<file>image/Cell.png</file>
+    </qresource>
+</RCC>

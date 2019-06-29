@@ -1,0 +1,6 @@
+常用字体;font-family;0;0;Microsoft YaHei;;
+样式;font-style;0;1;normal;;
+修饰;text-decoration;0;2;none;;
+粗细;font-weight;1;-1;400;;
+大小;font-size;1;-1;10;px;
+颜色;color;2;-1;not specified;;

@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>src/sh.csv</file>
+		<file>src/sz.csv</file>
+		<file>main.ico</file>
+    </qresource>
+</RCC>

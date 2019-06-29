@@ -1,0 +1,17 @@
+chartNumber;4;
+Acc;3;
+accX;accX|;2;-2;g;7;
+accY;accY|;2;-2;g;8;
+accZ;accZ|;2;-2;g;9;
+Gyro;3;
+gyroX;gyroX|;400;-400;бу/s;7;
+gyroY;gyroY|;400;-400;бу/s;8;
+gyroZ;gyroZ|;400;-400;бу/s;9;
+Mag;3;
+magX;magX|;300;-100;mG;7;
+magY;magY|;300;-100;mG;8;
+magZ;magZ|;300;-100;mG;9;
+Angle;3;
+angleX;angleX|;180;-180;бу;7;
+angleY;angleY|;180;-180;бу;8;
+angleZ;angleZ|;180;-180;бу;9;
