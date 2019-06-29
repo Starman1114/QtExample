@@ -1,7 +1,6 @@
 <RCC>
     <qresource prefix="/AICenter_PC">
         <file>Resources/fontawesome-webfont.ttf</file>
-        <file>Resources/IntelAI.css</file>
         <file>Resources/images/pbug.jpg</file>
         <file>Resources/images/pbug_Big.jpg</file>
         <file>Resources/images/pbug_add.jpg</file>
@@ -16,5 +15,6 @@
         <file>Resources/images/Keyboard_hover.png</file>
         <file>Resources/images/flash.png</file>
         <file>Resources/images/flash_hover.png</file>
+        <file>Resources/pybqss.css</file>
     </qresource>
 </RCC>

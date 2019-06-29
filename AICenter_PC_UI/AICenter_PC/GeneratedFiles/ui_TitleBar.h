@@ -142,7 +142,7 @@ public:
     {
         TitleBar->setWindowTitle(QApplication::translate("TitleBar", "Form", nullptr));
         lab_Ico->setText(QString());
-        lab_Title->setText(QApplication::translate("TitleBar", "Pengyubin", nullptr));
+        lab_Title->setText(QApplication::translate("TitleBar", "Wireless36", nullptr));
         loginButton->setText(QApplication::translate("TitleBar", "Login", nullptr));
 #ifndef QT_NO_TOOLTIP
         btnMenu->setToolTip(QApplication::translate("TitleBar", "Setting", nullptr));

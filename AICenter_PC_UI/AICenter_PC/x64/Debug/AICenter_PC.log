@@ -1,3 +1,42 @@
 ﻿  Rcc'ing AICenter_PC.qrc...
-   RCC: Error in 'G:\涓婅\QT椤圭洰\AICenter_PC_UI\AICenter_PC\AICenter_PC.qrc': Cannot find file 'Resources/IntelAI.css'
-AICenter_PC.qrc : error 1: rcc (C:\Qt\Qt5.12.2\5.12.2\msvc2017_64\bin\rcc.exe)
+  Moc'ing SetDialog.h...
+  Moc'ing Image_Big.h...
+  Moc'ing Image_small.h...
+  Moc'ing MySpeed.h...
+  Moc'ing GameList.h...
+  AICenter_PC.cpp
+  Device_Choose.cpp
+  FormSet.cpp
+  GameList.cpp
+c:\qt\qtexample\aicenter_pc_ui\aicenter_pc\sdkdll.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Device_Choose.cpp)
+c:\qt\qtexample\aicenter_pc_ui\aicenter_pc\sdkdll.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 GameList.cpp)
+c:\qt\qtexample\aicenter_pc_ui\aicenter_pc\sdkdll.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 FormSet.cpp)
+c:\qt\qtexample\aicenter_pc_ui\aicenter_pc\sdkdll.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 AICenter_PC.cpp)
+  Image_Big.cpp
+  Image_small.cpp
+  main.cpp
+  MySpeed.cpp
+  SetDialog.cpp
+c:\qt\qtexample\aicenter_pc_ui\aicenter_pc\sdkdll.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+c:\qt\qtexample\aicenter_pc_ui\aicenter_pc\sdkdll.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 MySpeed.cpp)
+c:\qt\qtexample\aicenter_pc_ui\aicenter_pc\sdkdll.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Image_Big.cpp)
+  TitleBar.cpp
+  moc_AICenter_PC.cpp
+  moc_TitleBar.cpp
+c:\qt\qtexample\aicenter_pc_ui\aicenter_pc\sdkdll.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 SetDialog.cpp)
+c:\qt\qtexample\aicenter_pc_ui\aicenter_pc\sdkdll.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 TitleBar.cpp)
+  moc_Device_Choose.cpp
+c:\qt\qtexample\aicenter_pc_ui\aicenter_pc\sdkdll.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 GeneratedFiles\Debug\moc_AICenter_PC.cpp)
+c:\qt\qtexample\aicenter_pc_ui\aicenter_pc\sdkdll.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 GeneratedFiles\Debug\moc_TitleBar.cpp)
+  qrc_AICenter_PC.cpp
+  moc_SetDialog.cpp
+  moc_Image_Big.cpp
+  moc_Image_small.cpp
+c:\qt\qtexample\aicenter_pc_ui\aicenter_pc\sdkdll.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 GeneratedFiles\Debug\moc_Device_Choose.cpp)
+  moc_MySpeed.cpp
+c:\qt\qtexample\aicenter_pc_ui\aicenter_pc\sdkdll.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 GeneratedFiles\Debug\moc_SetDialog.cpp)
+c:\qt\qtexample\aicenter_pc_ui\aicenter_pc\sdkdll.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 GeneratedFiles\Debug\moc_Image_Big.cpp)
+  moc_GameList.cpp
+c:\qt\qtexample\aicenter_pc_ui\aicenter_pc\sdkdll.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 GeneratedFiles\Debug\moc_MySpeed.cpp)
+c:\qt\qtexample\aicenter_pc_ui\aicenter_pc\sdkdll.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 GeneratedFiles\Debug\moc_GameList.cpp)
+  AICenter_PC.vcxproj -> C:\Qt\QtExample\AICenter_PC_UI\x64\Debug\AICenter_PC.exe

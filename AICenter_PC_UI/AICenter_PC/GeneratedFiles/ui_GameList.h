@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'GameList.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.3
+** Created by: Qt User Interface Compiler version 5.12.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -13,7 +13,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QListWidget>
 #include <QtWidgets/QVBoxLayout>
-#include <QtWidgets/QDialog>
+#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
@@ -23,7 +23,7 @@ public:
     QVBoxLayout *verticalLayout;
     QListWidget *imageList;
 
-    void setupUi(QDialog *GameList_Class)
+    void setupUi(QWidget *GameList_Class)
     {
         if (GameList_Class->objectName().isEmpty())
             GameList_Class->setObjectName(QString::fromUtf8("GameList_Class"));
