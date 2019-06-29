@@ -3,4 +3,4 @@
 ## 设计方案
 ---
 ## 总方案
-![总系统设计](https://github.com/sustcpengyubin/QtExample/edit/master/毕设（新版）/images/System.jpg)  
+![总系统设计](https://github.com/sustcpengyubin/QtExample/tree/master/GraduationDesign/images/System.jpg)  
