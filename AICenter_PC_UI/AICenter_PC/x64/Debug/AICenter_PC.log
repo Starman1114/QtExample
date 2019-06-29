@@ -1,0 +1,3 @@
+﻿  Rcc'ing AICenter_PC.qrc...
+   RCC: Error in 'G:\涓婅\QT椤圭洰\AICenter_PC_UI\AICenter_PC\AICenter_PC.qrc': Cannot find file 'Resources/IntelAI.css'
+AICenter_PC.qrc : error 1: rcc (C:\Qt\Qt5.12.2\5.12.2\msvc2017_64\bin\rcc.exe)

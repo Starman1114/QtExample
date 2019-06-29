@@ -1,0 +1,152 @@
+
+
+QWidget#widget_title{
+	/*background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #00AFF0, stop:1 #FFFFFF);*/
+	/*background-color:#00AFF0;*/
+	background-color: none;
+}
+
+QLabel#lab_Title{
+	color:#FFFFFF;
+	padding:3px;
+	margin:0px;
+	background:none;
+	border-style:none;
+}
+
+QLabel#lab_Ico{
+	/*background-color:#00AFF0;*/
+	background-color: none;
+	image:url(:/AICenter_PC/Resources/images/ico.png);
+	padding:2px;
+}
+
+QWidget#MainWidget{
+	border-image:url(:/AICenter_PC/Resources/images/Background.jpg);
+	padding:0px;
+	margin:0px;
+}
+
+QPushButton#loginButton{
+/*border-radius:3px;*/
+color:#00FF91;
+padding:3px;
+margin:0px;
+background:none;
+border-style:none;
+}
+
+QPushButton#btnMenu_Min,QPushButton#btnMenu_Close,QPushButton#btnMenu{
+/*border-radius:3px;*/
+color:#A6A6A6;
+padding:3px;
+margin:0px;
+background:none;
+border-style:none;
+}
+
+QPushButton#btnMenu_Min:hover,QPushButton#btnMenu_Close:hover,QPushButton#btnMenu:hover{
+color:#FFFFFF;
+margin:1px 1px 2px 1px;
+/*background-color:rgba(51,127,209,230);*/
+}
+
+QPushButton#ChooseSpeed,QPushButton#ChooseGame{
+    background:none;
+	color:#A6A6A6;
+    border-radius: 0px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px;
+}
+
+QPushButton#ChooseSpeed:focus,QPushButton#ChooseGame:focus{
+	background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 175, 240, 125), stop:0.55 rgba(87, 199, 240, 75), stop:0.80 rgba(133, 209, 237, 25), stop:1 rgba(0, 0, 0, 0));
+    color:#FFFFFF;
+
+}
+
+QPushButton#ChooseSpeed:hover,QPushButton#ChooseGame:hover{
+	background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 175, 240, 125), stop:0.55 rgba(87, 199, 240, 75), stop:0.80 rgba(133, 209, 237, 25), stop:1 rgba(0, 0, 0, 0));
+    color:#FFFFFF;
+   
+}
+
+QListWidget#imageList{
+	background-color: none;
+	border: none;
+}
+
+QPushButton#runButton{
+/*border-radius:3px;*/
+color:#A6A6A6;
+padding:3px;
+margin:1px 1px 1px 1px;
+background:none;
+border-style:none;
+}
+
+QPushButton#runButton:hover{
+color:#00cc99;
+margin:0px;
+/*background-color:rgba(51,127,209,230);*/
+}
+
+QPushButton#deleteButton{
+/*border-radius:3px;*/
+color:#A6A6A6;
+border-radius: 10px;
+padding:3px;
+margin:1px 1px 1px 1px;
+background:none;
+border-style: solid; 
+border-width: 1px;
+border-color: #A6A6A6;
+}
+QPushButton#deleteButton:hover{
+color:#FFFFFF;
+border-color: #FFFFFF;
+margin:0px;
+/*background-color:rgba(51,127,209,230);*/
+}
+
+QPushButton#KeyBoardButton{
+/*border-radius:3px;*/
+padding:3px;
+margin:1px 1px 1px 1px;
+background:none;
+border-image:url(:/AICenter_PC/Resources/images/Keyboard.png);
+}
+QPushButton#KeyBoardButton:hover{
+margin:0px;
+border-image:url(:/AICenter_PC/Resources/images/Keyboard_hover.png);
+}
+
+QPushButton#flashButton{
+/*border-radius:3px;*/
+padding:3px;
+margin:1px 1px 1px 1px;
+background:none;
+border-image:url(:/AICenter_PC/Resources/images/flash.png);
+}
+QPushButton#flashButton:hover{
+margin:0px;
+border-image:url(:/AICenter_PC/Resources/images/flash_hover.png);
+}
+
+QPushButton#saveButton{
+color:#A6A6A6;
+padding:3px;
+margin:0px;
+background:none;
+border-style:none;
+}
+
+QPushButton#saveButton:hover{
+color:#00B2F1;
+margin:1px 1px 2px 1px;
+}
+
+

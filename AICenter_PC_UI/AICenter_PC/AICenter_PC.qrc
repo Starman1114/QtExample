@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/AICenter_PC">
+        <file>Resources/fontawesome-webfont.ttf</file>
+        <file>Resources/IntelAI.css</file>
+        <file>Resources/images/pbug.jpg</file>
+        <file>Resources/images/pbug_Big.jpg</file>
+        <file>Resources/images/pbug_add.jpg</file>
+        <file>Resources/images/Background.jpg</file>
+        <file>Resources/images/ico.png</file>
+        <file>Resources/images/csgo.jpg</file>
+        <file>Resources/images/csgo_Big.jpg</file>
+        <file>Resources/images/csgo_add.jpg</file>
+        <file>Resources/images/origin.jpg</file>
+        <file>Resources/images/Keyboard.png</file>
+        <file>Resources/images/Keyboard_Choose.png</file>
+        <file>Resources/images/Keyboard_hover.png</file>
+        <file>Resources/images/flash.png</file>
+        <file>Resources/images/flash_hover.png</file>
+    </qresource>
+</RCC>
