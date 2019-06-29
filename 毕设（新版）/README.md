@@ -3,7 +3,4 @@
 ## 设计方案
 ---
 ## 总方案
-![设计框架](https://github.com/sustcpengyubin/QtExample/blob/master/AICenter_PC_UI/images/功能设计.jpg)  
-## 总方案
-![设计框架](https://github.com/sustcpengyubin/QtExample/blob/master/AICenter_PC_UI/images/功能设计.jpg)  
-
+![设计框架](https://github.com/sustcpengyubin/QtExample/edit/master/毕设（新版）/images/功能设计.jpg)  
