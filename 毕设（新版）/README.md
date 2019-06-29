@@ -1,3 +1,6 @@
-## 微信搜索小程序“无线36”<br>
+# 毕业设计： 基于9轴传感器的步态检测及展示
+
+## 设计方案
 ---
-<img src="https://github.com/sustcpengyubin/Mini-Program/blob/master/images/Search.jpg" alt="微信搜索" width="375" height="667">
+## 总方案
+![设计框架](https://github.com/sustcpengyubin/QtExample/edit/master/毕设（新版）/images/功能设计.jpg)  
