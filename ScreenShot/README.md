@@ -13,7 +13,7 @@ Tips： 有Fn键的电脑需要Ctrl+Fn+F？ <br>
 正、负框（置于最顶层）<br>
 ![框](https://github.com/sustcpengyubin/QtExample/blob/master/ScreenShot/images/positive.png)  
 ![框](https://github.com/sustcpengyubin/QtExample/blob/master/ScreenShot/images/negative.png)  
-在实线处右键菜单：切换框类型（Ctrl+F2）、删除框
+在实线处右键菜单：切换框类型（Ctrl+F2）、删除框<br>
 ![框](https://github.com/sustcpengyubin/QtExample/blob/master/ScreenShot/images/menu.png)  
 ## 框操作
 ---
