@@ -20,6 +20,9 @@
 ## 数据显示
 ![数据显示](https://github.com/sustcpengyubin/QtExample/blob/master/GraduationDesign/images/DataShow.jpg)  
 
+## 图表设计
+![添加图表](https://github.com/sustcpengyubin/QtExample/blob/master/GraduationDesign/images/ChartDesign.jpg) 
+
 ## 添加图表
 ![添加图表](https://github.com/sustcpengyubin/QtExample/blob/master/GraduationDesign/images/Chart.jpg)  
 
