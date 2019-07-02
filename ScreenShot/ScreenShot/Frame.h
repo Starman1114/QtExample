@@ -19,6 +19,7 @@ public:
 	void ChangeInd(int nind);
 	int returnType();
 	void changeIsRun(bool isr);
+	void setLocation(int x, int y, int w, int h);
 
 public slots:
 	void ChangeType();
@@ -28,6 +29,7 @@ private slots:
 
 signals:
 	void returnInd(int ind);
+	void returnRectValue(int x, int y, int w, int h);
 private:
 	void mouseMoveEvent(QMouseEvent *e);
 	void mousePressEvent(QMouseEvent *e);

@@ -234,7 +234,14 @@ void Frame::mouseMoveEvent(QMouseEvent *e)
 			e->accept();
 		}
 		
+		QRect rt = this->geometry();
+		emit returnRectValue(rt.topLeft().rx()+4, rt.topLeft().ry() + 4, rt.bottomRight().rx() - rt.topLeft().rx() - 8, rt.bottomRight().ry() - rt.topLeft().ry() - 8);
+
 	}
+}
+
+void Frame::setLocation(int x, int y, int w, int h) {
+	this->setGeometry(x - 4, y - 4, w+9, h+9);
 }
 
 void Frame::mousePressEvent(QMouseEvent *e)

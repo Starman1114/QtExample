@@ -113,6 +113,7 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AddLabel.cpp" />
     <ClCompile Include="Frame.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MyGlobalShortCut\MyGlobalShortCut.cpp" />
@@ -123,6 +124,7 @@
     <QtMoc Include="ScreenShot.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtUic Include="AddLabel.ui" />
     <QtUic Include="Frame.ui" />
     <QtUic Include="ScreenShot.ui" />
   </ItemGroup>
@@ -137,6 +139,10 @@
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="Frame.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\yubinpex\source\repos\ScreenShot\ScreenShot\qxtglobalshortcut5-master\core;C:\Users\yubinpex\source\repos\ScreenShot\ScreenShot\qxtglobalshortcut5-master\gui;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;C:\Users\yubinpex\source\repos\ScreenShot\ScreenShot\MyGlobalShortCut</IncludePath>
+    </QtMoc>
+    <QtMoc Include="AddLabel.h">
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets</IncludePath>
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\yubinpex\source\repos\ScreenShot\ScreenShot\qxtglobalshortcut5-master\core;C:\Users\yubinpex\source\repos\ScreenShot\ScreenShot\qxtglobalshortcut5-master\gui;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;C:\Users\yubinpex\source\repos\ScreenShot\ScreenShot\MyGlobalShortCut</IncludePath>
     </QtMoc>

@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'ScreenShot.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.3)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -12,7 +12,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'ScreenShot.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.12.3. It"
+#error "This file was generated using the moc from 5.12.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_ScreenShot_t {
-    QByteArrayData data[10];
-    char stringdata0[92];
+    QByteArrayData data[16];
+    char stringdata0[129];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -40,12 +40,19 @@ QT_MOC_LITERAL(5, 40, 11), // "deleteBoard"
 QT_MOC_LITERAL(6, 52, 3), // "ind"
 QT_MOC_LITERAL(7, 56, 7), // "running"
 QT_MOC_LITERAL(8, 64, 11), // "timerUpDate"
-QT_MOC_LITERAL(9, 76, 15) // "ChangeFirstType"
+QT_MOC_LITERAL(9, 76, 15), // "ChangeFirstType"
+QT_MOC_LITERAL(10, 92, 12), // "setRectValue"
+QT_MOC_LITERAL(11, 105, 1), // "x"
+QT_MOC_LITERAL(12, 107, 1), // "y"
+QT_MOC_LITERAL(13, 109, 1), // "w"
+QT_MOC_LITERAL(14, 111, 1), // "h"
+QT_MOC_LITERAL(15, 113, 15) // "ReturnRectValue"
 
     },
     "ScreenShot\0beclose\0\0addPBoard\0addNBoard\0"
     "deleteBoard\0ind\0running\0timerUpDate\0"
-    "ChangeFirstType"
+    "ChangeFirstType\0setRectValue\0x\0y\0w\0h\0"
+    "ReturnRectValue"
 };
 #undef QT_MOC_LITERAL
 
@@ -55,7 +62,7 @@ static const uint qt_meta_data_ScreenShot[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       7,   14, // methods
+       9,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -63,15 +70,17 @@ static const uint qt_meta_data_ScreenShot[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    0,   49,    2, 0x06 /* Public */,
+       1,    0,   59,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       3,    0,   50,    2, 0x08 /* Private */,
-       4,    0,   51,    2, 0x08 /* Private */,
-       5,    1,   52,    2, 0x08 /* Private */,
-       7,    0,   55,    2, 0x08 /* Private */,
-       8,    0,   56,    2, 0x08 /* Private */,
-       9,    0,   57,    2, 0x08 /* Private */,
+       3,    0,   60,    2, 0x08 /* Private */,
+       4,    0,   61,    2, 0x08 /* Private */,
+       5,    1,   62,    2, 0x08 /* Private */,
+       7,    0,   65,    2, 0x08 /* Private */,
+       8,    0,   66,    2, 0x08 /* Private */,
+       9,    0,   67,    2, 0x08 /* Private */,
+      10,    4,   68,    2, 0x08 /* Private */,
+      15,    4,   77,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void,
@@ -83,6 +92,8 @@ static const uint qt_meta_data_ScreenShot[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
+    QMetaType::Void, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Int,   11,   12,   13,   14,
+    QMetaType::Void, QMetaType::Int, QMetaType::Int, QMetaType::Int, QMetaType::Int,   11,   12,   13,   14,
 
        0        // eod
 };
@@ -100,6 +111,8 @@ void ScreenShot::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 4: _t->running(); break;
         case 5: _t->timerUpDate(); break;
         case 6: _t->ChangeFirstType(); break;
+        case 7: _t->setRectValue((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4]))); break;
+        case 8: _t->ReturnRectValue((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< int(*)>(_a[4]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -143,13 +156,13 @@ int ScreenShot::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 7)
+        if (_id < 9)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 7;
+        _id -= 9;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 7)
+        if (_id < 9)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 7;
+        _id -= 9;
     }
     return _id;
 }

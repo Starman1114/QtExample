@@ -11,6 +11,7 @@
 #include <QVector>
 #include<MyGlobalShortCut/MyGlobalShortCut.h>
 #include "Frame.h"
+#include "AddLabel.h"
 #include <QMetaEnum>
 #include <QDir>
 #include <QDateTime>
@@ -25,6 +26,7 @@ public:
 
 private:
 	void closeEvent(QCloseEvent * e);
+	
 
 protected:
 	//将图片设置为随着窗口变化而变化
@@ -40,6 +42,8 @@ private slots:
 	void running();
 	void timerUpDate();
 	void ChangeFirstType();
+	void setRectValue(int x, int y, int w, int h);
+	void ReturnRectValue(int x, int y, int w, int h);
 
 private:
 	Ui::ScreenShotClass ui;
@@ -49,5 +53,6 @@ private:
 	
 	QStringList dirList = {"./Positive" ,"./Negative" };
 	QTimer *timer;
+	AddLabel *aLabel;
 
 };

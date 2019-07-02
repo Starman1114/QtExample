@@ -45,6 +45,9 @@
     <ClCompile Include="Frame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AddLabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="ScreenShot.h">
@@ -56,12 +59,18 @@
     <QtMoc Include="Frame.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="AddLabel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="ScreenShot.ui">
       <Filter>Form Files</Filter>
     </QtUic>
     <QtUic Include="Frame.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="AddLabel.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>

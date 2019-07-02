@@ -50,6 +50,11 @@ ScreenShot::ScreenShot(QWidget *parent)
 	timer = new QTimer(this);
 	connect(timer, SIGNAL(timeout()), this, SLOT(timerUpDate()));
 
+	aLabel = new AddLabel;
+	connect(this, SIGNAL(beclose()), aLabel, SLOT(beClose()));
+	connect(aLabel, SIGNAL(putRect(int, int, int, int)), this, SLOT(ReturnRectValue(int, int, int, int)));
+	
+	aLabel->show();
 }
 
 ScreenShot::~ScreenShot() {
@@ -58,16 +63,19 @@ ScreenShot::~ScreenShot() {
 	}
 	FrameList.clear();
 	delete timer;
+	delete aLabel;
 }
 
 void ScreenShot::timerUpDate() {
 	QScreen *screen = QGuiApplication::primaryScreen();
 	for (int i = 0; i < FrameList.length(); i++) {
+		int x = FrameList[i]->getRect().topLeft().rx() + 4;
+		int y = FrameList[i]->getRect().topLeft().ry() + 4;
+		int w = FrameList[i]->getRect().bottomRight().rx() - FrameList[i]->getRect().topLeft().rx() - 8;
+		int h = FrameList[i]->getRect().bottomRight().ry() - FrameList[i]->getRect().topLeft().ry() - 8;
+		pixmap = screen->grabWindow(0, x, y,w, h);
 
-		pixmap = screen->grabWindow(0, FrameList[i]->getRect().topLeft().rx() + 4, FrameList[i]->getRect().topLeft().ry() + 4,
-			FrameList[i]->getRect().bottomRight().rx() - FrameList[i]->getRect().topLeft().rx() - 8, FrameList[i]->getRect().bottomRight().ry() - FrameList[i]->getRect().topLeft().ry() - 8);
-
-		QString fileName = QDateTime::currentDateTime().toString("yyyy-MM-dd-HH-mm-ss-zzz") + ".jpg";
+		QString fileName = QString("%1(%2_%3_%4_%5).jpg").arg(QDateTime::currentDateTime().toString("MM-dd-HH-mm-ss-zzz")).arg(x).arg(y).arg(w).arg(h);
 		if (!pixmap.save(QString("%1/%2/%3").arg(ui.DirNameEdit->text()).arg(dirList[FrameList[i]->returnType()]).arg(fileName), "jpg"))
 		{
 			qDebug() << "Fail " << i << endl;
@@ -94,8 +102,13 @@ void ScreenShot::addPBoard() {
 	if (FrameList.length() == 0) {
 		Frame *a = new Frame(FrameList.length(), 0);  //为了不跟随主窗口最小化 ， 不能（this）
 		connect(a, SIGNAL(returnInd(int)), this, SLOT(deleteBoard(int)));
+		connect(a, SIGNAL(returnRectValue(int, int, int, int)), this, SLOT(setRectValue(int, int, int, int)));
 		connect(this, SIGNAL(beclose()), a, SLOT(beClose()));
 		FrameList.append(a);
+		
+		QRect rt = this->geometry();
+		setRectValue(rt.topLeft().rx() + 4, rt.topLeft().ry() + 4, rt.bottomRight().rx() - rt.topLeft().rx() - 8, rt.bottomRight().ry() - rt.topLeft().ry() - 8);
+
 		a->show();
 	}
 }
@@ -103,8 +116,21 @@ void ScreenShot::addNBoard() {
 	Frame *a = new Frame(FrameList.length(), 1);  //为了不跟随主窗口最小化 ， 不能（this）
 	connect(this, SIGNAL(beclose()), a, SLOT(beClose()));
 	connect(a, SIGNAL(returnInd(int)), this, SLOT(deleteBoard(int)));
+	connect(a, SIGNAL(returnRectValue(int, int, int, int)), this, SLOT(setRectValue(int, int, int, int)));
 	FrameList.append(a);
+	
+	QRect rt = this->geometry();
+	setRectValue(rt.topLeft().rx() + 4, rt.topLeft().ry() + 4, rt.bottomRight().rx() - rt.topLeft().rx() - 8, rt.bottomRight().ry() - rt.topLeft().ry() - 8);
+
 	a->show();
+}
+
+void ScreenShot::setRectValue(int x, int y, int w, int h) {
+	aLabel->setValue(x, y, w, h);
+}
+
+void ScreenShot::ReturnRectValue(int x, int y, int w, int h) {
+	FrameList[0]->setLocation(x, y, w, h);
 }
 
 
