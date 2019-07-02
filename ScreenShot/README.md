@@ -19,8 +19,9 @@ Tips： 有Fn键的电脑需要Ctrl+Fn+F？ <br>
 ![框](https://github.com/sustcpengyubin/QtExample/blob/master/ScreenShot/images/valueSet.jpg)  
 ## 运行
 ---
-截屏并保存<br>
+截屏并保存）虚线变实线<br>
 ![运行](https://github.com/sustcpengyubin/QtExample/blob/master/ScreenShot/images/save.png)  
+![运行](https://github.com/sustcpengyubin/QtExample/blob/master/ScreenShot/images/result.jpg)  
 
 ## 相关技术
 ---
