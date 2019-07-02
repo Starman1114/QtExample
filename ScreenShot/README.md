@@ -15,8 +15,22 @@ Tips： 有Fn键的电脑需要Ctrl+Fn+F？ <br>
 ![框](https://github.com/sustcpengyubin/QtExample/blob/master/ScreenShot/images/negative.png)  
 在实线处右键菜单：切换框类型（Ctrl+F2）、删除框<br>
 ![框](https://github.com/sustcpengyubin/QtExample/blob/master/ScreenShot/images/menu.png)  
-## 框操作
+实时显示矩形框的左上顶点坐标x、y和宽度、高度，并可直接输入数值改变框的位置和大小
+![框](https://github.com/sustcpengyubin/QtExample/blob/master/ScreenShot/images/valueSet.jpg)  
+## 运行
 ---
-截屏并保存<br>
+截屏并保存）虚线变实线<br>
 ![运行](https://github.com/sustcpengyubin/QtExample/blob/master/ScreenShot/images/save.png)  
+![运行](https://github.com/sustcpengyubin/QtExample/blob/master/ScreenShot/images/result.jpg)  
+
+## 相关技术
+---
+•	全局热键<br>
+•	窗口置顶<br>
+•	窗口透明（鼠标穿透）<br>
+•	基于QT截屏<br>
+•	右键菜单（Menu\Action）<br>
+•	非父类窗口间同步关闭（signal）<br>
+•	窗口移动<br>
+•	键盘事件<br>
 
