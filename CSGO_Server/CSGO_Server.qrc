@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/CSGO_Server">
-        <file>Resources/gamestate_integration_consolesample.cfg</file>
-    </qresource>
-</RCC>
