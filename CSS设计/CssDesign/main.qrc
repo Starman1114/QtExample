@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>src/FontSet.txt</file>
-		<file>src/BackgroupSet.txt</file>
-		<file>src/BorderSet.txt</file>
-		<file>src/AboutCss.txt</file>
-		<file>src/BackgroupSet.txt</file>
-    </qresource>
-</RCC>

@@ -1,6 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-		<file>src/OriginSet.txt</file>
-		<file>main.ico</file>
-    </qresource>
-</RCC>

@@ -1,5 +1,0 @@
-chartNumber;1;
-²½Ì¬¼ì²â;3;
-temp;;175;-250;;7;
-valleythres;;175;-250;;8;
-peakthres;;175;-250;;8;
