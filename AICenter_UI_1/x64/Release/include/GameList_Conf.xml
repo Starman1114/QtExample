@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameList>
+  <Game Name="PBUG" Type="0">
+    <Describe>
+      <text>通过使用Intel_Openvino AI技术，可以通过捕捉游戏事件，如击杀、游戏结束等，触发外设不同灯效！</text>
+    </Describe>
+    <Device Name="键盘" Type="0">
+      <Mode Name="游戏开始" Type="0">
+        <Drop>游戏开始灯效1</Drop>
+        <Drop>游戏开始灯效2</Drop>
+        <Drop>游戏开始灯效3</Drop>
+      </Mode>
+      <Mode Name="击杀" Type="0">
+        <Drop>击杀灯效1</Drop>
+        <Drop>击杀灯效2</Drop>
+        <Drop>击杀灯效3</Drop>
+      </Mode>
+      <Mode Name="死亡" Type="0">
+        <Drop>死亡灯效1</Drop>
+        <Drop>死亡灯效2</Drop>
+        <Drop>死亡灯效3</Drop>
+      </Mode>
+      <Mode Name="退出游戏" Type="0">
+        <Drop>退出游戏灯效1</Drop>
+        <Drop>退出游戏灯效2</Drop>
+        <Drop>退出游戏灯效3</Drop>
+      </Mode>
+    </Device>
+    <Device Name="鼠标" Type="1">
+      <Mode Name="游戏开始" Type="0">
+        <Drop>游戏开始灯效1</Drop>
+        <Drop>游戏开始灯效2</Drop>
+        <Drop>游戏开始灯效3</Drop>
+      </Mode>
+      <Mode Name="击杀" Type="0">
+        <Drop>击杀灯效1</Drop>
+        <Drop>击杀灯效2</Drop>
+        <Drop>击杀灯效3</Drop>
+      </Mode>
+      <Mode Name="死亡" Type="0">
+        <Drop>死亡灯效1</Drop>
+        <Drop>死亡灯效2</Drop>
+        <Drop>死亡灯效3</Drop>
+      </Mode>
+      <Mode Name="退出游戏" Type="0">
+        <Drop>退出游戏灯效1</Drop>
+        <Drop>退出游戏灯效2</Drop>
+        <Drop>退出游戏灯效3</Drop>
+      </Mode>
+    </Device>
+    <Device Name="鼠标垫" Type="2">
+      <Mode Name="游戏开始" Type="0">
+        <Drop>游戏开始灯效1</Drop>
+        <Drop>游戏开始灯效2</Drop>
+        <Drop>游戏开始灯效3</Drop>
+      </Mode>
+      <Mode Name="击杀" Type="0">
+        <Drop>击杀灯效1</Drop>
+        <Drop>击杀灯效2</Drop>
+        <Drop>击杀灯效3</Drop>
+      </Mode>
+      <Mode Name="死亡" Type="0">
+        <Drop>死亡灯效1</Drop>
+        <Drop>死亡灯效2</Drop>
+        <Drop>死亡灯效3</Drop>
+      </Mode>
+      <Mode Name="退出游戏" Type="0">
+        <Drop>退出游戏灯效1</Drop>
+        <Drop>退出游戏灯效2</Drop>
+        <Drop>退出游戏灯效3</Drop>
+      </Mode>
+    </Device>
+    <Device Name="机箱" Type="3">
+      <Mode Name="游戏开始" Type="0">
+        <Drop>游戏开始灯效1</Drop>
+        <Drop>游戏开始灯效2</Drop>
+        <Drop>游戏开始灯效3</Drop>
+      </Mode>
+      <Mode Name="击杀" Type="0">
+        <Drop>击杀灯效1</Drop>
+        <Drop>击杀灯效2</Drop>
+        <Drop>击杀灯效3</Drop>
+      </Mode>
+      <Mode Name="死亡" Type="0">
+        <Drop>死亡灯效1</Drop>
+        <Drop>死亡灯效2</Drop>
+        <Drop>死亡灯效3</Drop>
+      </Mode>
+      <Mode Name="退出游戏" Type="0">
+        <Drop>退出游戏灯效1</Drop>
+        <Drop>退出游戏灯效2</Drop>
+        <Drop>退出游戏灯效3</Drop>
+      </Mode>
+    </Device>
+    <Device Name="音响" Type="4">
+      <Mode Name="游戏开始" Type="0">
+        <Drop>游戏开始灯效1</Drop>
+        <Drop>游戏开始灯效2</Drop>
+        <Drop>游戏开始灯效3</Drop>
+      </Mode>
+      <Mode Name="击杀" Type="0">
+        <Drop>击杀灯效1</Drop>
+        <Drop>击杀灯效2</Drop>
+        <Drop>击杀灯效3</Drop>
+      </Mode>
+      <Mode Name="死亡" Type="0">
+        <Drop>死亡灯效1</Drop>
+        <Drop>死亡灯效2</Drop>
+        <Drop>死亡灯效3</Drop>
+      </Mode>
+      <Mode Name="退出游戏" Type="0">
+        <Drop>退出游戏灯效1</Drop>
+        <Drop>退出游戏灯效2</Drop>
+        <Drop>退出游戏灯效3</Drop>
+      </Mode>
+    </Device>
+    <Device Name="摄像头" Type="5">
+      <Mode Name="左摆头" Type="1">
+        <HotKey>Q</HotKey>
+      </Mode>
+      <Mode Name="右摆头" Type="1">
+        <HotKey>E</HotKey>
+      </Mode>
+      <Mode Name="点头" Type="1">
+        <HotKey>C</HotKey>
+      </Mode>
+      <Mode Name="语音" Type="1">
+        <HotKey>T</HotKey>
+      </Mode>
+      <Mode Name="离开" Type="0">
+        <Drop>锁屏</Drop>
+        <Drop>空格键</Drop>
+      </Mode>
+    </Device>
+  </Game>
+  
+  
+  <Game Name="CSGO" Type="1">
+    <Describe>
+      <text>通过使用Intel_Openvino AI技术，可以通过捕捉游戏事件，如击杀、游戏结束等，触发外设不同灯效！</text>
+    </Describe>
+    <Device Name="键盘" Type="0">
+      <Mode Name="游戏开始" Type="0">
+        <Drop>游戏开始灯效1</Drop>
+        <Drop>游戏开始灯效2</Drop>
+        <Drop>游戏开始灯效3</Drop>
+      </Mode>
+      <Mode Name="击杀" Type="0">
+        <Drop>击杀灯效1</Drop>
+        <Drop>击杀灯效2</Drop>
+        <Drop>击杀灯效3</Drop>
+      </Mode>
+      <Mode Name="死亡" Type="0">
+        <Drop>死亡灯效1</Drop>
+        <Drop>死亡灯效2</Drop>
+        <Drop>死亡灯效3</Drop>
+      </Mode>
+      <Mode Name="退出游戏" Type="0">
+        <Drop>退出游戏灯效1</Drop>
+        <Drop>退出游戏灯效2</Drop>
+        <Drop>退出游戏灯效3</Drop>
+      </Mode>
+    </Device>
+    <Device Name="鼠标" Type="1">
+      <Mode Name="游戏开始" Type="0">
+        <Drop>游戏开始灯效1</Drop>
+        <Drop>游戏开始灯效2</Drop>
+        <Drop>游戏开始灯效3</Drop>
+
+      </Mode>
+      <Mode Name="击杀" Type="0">
+        <Drop>击杀灯效1</Drop>
+        <Drop>击杀灯效2</Drop>
+        <Drop>击杀灯效3</Drop>
+      </Mode>
+      <Mode Name="死亡" Type="0">
+        <Drop>死亡灯效1</Drop>
+        <Drop>死亡灯效2</Drop>
+        <Drop>死亡灯效3</Drop>
+      </Mode>
+      <Mode Name="退出游戏" Type="0">
+        <Drop>退出游戏灯效1</Drop>
+        <Drop>退出游戏灯效2</Drop>
+        <Drop>退出游戏灯效3</Drop>
+      </Mode>
+    </Device>
+    <Device Name="鼠标垫" Type="2">
+      <Mode Name="游戏开始" Type="0">
+        <Drop>游戏开始灯效1</Drop>
+        <Drop>游戏开始灯效2</Drop>
+        <Drop>游戏开始灯效3</Drop>
+
+      </Mode>
+      <Mode Name="击杀" Type="0">
+        <Drop>击杀灯效1</Drop>
+        <Drop>击杀灯效2</Drop>
+        <Drop>击杀灯效3</Drop>
+      </Mode>
+      <Mode Name="死亡" Type="0">
+        <Drop>死亡灯效1</Drop>
+        <Drop>死亡灯效2</Drop>
+        <Drop>死亡灯效3</Drop>
+      </Mode>
+      <Mode Name="退出游戏" Type="0">
+        <Drop>退出游戏灯效1</Drop>
+        <Drop>退出游戏灯效2</Drop>
+        <Drop>退出游戏灯效3</Drop>
+      </Mode>
+    </Device>
+    <Device Name="机箱" Type="3">
+      <Mode Name="游戏开始" Type="0">
+        <Drop>游戏开始灯效1</Drop>
+        <Drop>游戏开始灯效2</Drop>
+        <Drop>游戏开始灯效3</Drop>
+      </Mode>
+      <Mode Name="击杀" Type="0">
+        <Drop>击杀灯效1</Drop>
+        <Drop>击杀灯效2</Drop>
+        <Drop>击杀灯效3</Drop>
+      </Mode>
+      <Mode Name="死亡" Type="0">
+        <Drop>死亡灯效1</Drop>
+        <Drop>死亡灯效2</Drop>
+        <Drop>死亡灯效3</Drop>
+      </Mode>
+      <Mode Name="退出游戏" Type="0">
+        <Drop>退出游戏灯效1</Drop>
+        <Drop>退出游戏灯效2</Drop>
+        <Drop>退出游戏灯效3</Drop>
+      </Mode>
+    </Device>
+    <Device Name="音响" Type="4">
+      <Mode Name="游戏开始" Type="0">
+        <Drop>游戏开始灯效1</Drop>
+        <Drop>游戏开始灯效2</Drop>
+        <Drop>游戏开始灯效3</Drop>
+      </Mode>
+      <Mode Name="击杀" Type="0">
+        <Drop>击杀灯效1</Drop>
+        <Drop>击杀灯效2</Drop>
+        <Drop>击杀灯效3</Drop>
+      </Mode>
+      <Mode Name="死亡" Type="0">
+        <Drop>死亡灯效1</Drop>
+        <Drop>死亡灯效2</Drop>
+        <Drop>死亡灯效3</Drop>
+      </Mode>
+      <Mode Name="退出游戏" Type="0">
+        <Drop>退出游戏灯效1</Drop>
+        <Drop>退出游戏灯效2</Drop>
+        <Drop>退出游戏灯效3</Drop>
+      </Mode>
+    </Device>
+    <Device Name="摄像头" Type="5">
+      <Mode Name="左摆头" Type="1">
+        <HotKey>Q</HotKey>
+      </Mode>
+      <Mode Name="右摆头" Type="1">
+        <HotKey>E</HotKey>
+      </Mode>
+      <Mode Name="点头" Type="1">
+        <HotKey>C</HotKey>
+      </Mode>
+      <Mode Name="语音" Type="1">
+        <HotKey>T</HotKey>
+      </Mode>
+      <Mode Name="离开" Type="0">
+        <Drop>锁屏</Drop>
+        <Drop>空格键</Drop>
+      </Mode>
+    </Device>
+  </Game>
+</GameList>

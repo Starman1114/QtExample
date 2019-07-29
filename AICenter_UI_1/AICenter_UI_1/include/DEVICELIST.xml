@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeviceList>
+   <DEVICE Name ="Keyboard1" TYPE="0" PID ="34057" VID="3141"></DEVICE>
+   <DEVICE Name ="Camera" TYPE="4" PID ="28755" VID="1226"></DEVICE>
+   <DEVICE Name ="Logitech" TYPE="4" PID ="2140" VID="1133"></DEVICE>
+</DeviceList>

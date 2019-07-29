@@ -1,0 +1,21 @@
+﻿  Rcc'ing AICenter_UI_1.qrc...
+  AICenter_UI_1.cpp
+  moc_AICenter_UI_1.cpp
+  moc_AI_Assist.cpp
+  moc_Device_Conf.cpp
+  moc_Device_Mode.cpp
+  moc_Device_Support.cpp
+  moc_Mode_Drop.cpp
+  moc_Mode_HotKey.cpp
+  moc_TitleBar.cpp
+  qrc_AICenter_UI_1.cpp
+  AI_Assist.cpp
+  Device_Conf.cpp
+  Device_Mode.cpp
+  Device_Support.cpp
+  Mode_Drop.cpp
+  Mode_HotKey.cpp
+  TitleBar.cpp
+  main.cpp
+  util.cpp
+  AICenter_UI_1.vcxproj -> C:\Users\yubinpex\source\repos\AICenter_UI_1\x64\Release\AICenter_UI_1.exe

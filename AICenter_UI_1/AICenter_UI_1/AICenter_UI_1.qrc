@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/AICenter_UI_1">
+        <file>Resources/fontawesome-webfont.ttf</file>
+        <file>Resources/IntelAI.css</file>
+        <file>Resources/psblack.css</file>
+        <file>Resources/images/Background.jpg</file>
+        <file>Resources/images/CSGO.jpg</file>
+        <file>Resources/images/CSGO_ADD.jpg</file>
+        <file>Resources/images/CSGO_BIG.jpg</file>
+        <file>Resources/images/flash.png</file>
+        <file>Resources/images/flash_hover.png</file>
+        <file>Resources/images/ico.png</file>
+        <file>Resources/images/Keyboard.png</file>
+        <file>Resources/images/Keyboard_Choose.png</file>
+        <file>Resources/images/Keyboard_hover.png</file>
+        <file>Resources/images/origin.jpg</file>
+        <file>Resources/images/PBUG_ADD.jpg</file>
+        <file>Resources/images/PBUG_BIG.jpg</file>
+        <file>Resources/images/PBUG.jpg</file>
+        <file>Resources/images/Camera.jpg</file>
+        <file>Resources/images/KeyBoard.png</file>
+        <file>Resources/images/Mouse.jpg</file>
+        <file>Resources/images/jixiang.jpg</file>
+        <file>Resources/images/mouse_dian.jpg</file>
+        <file>Resources/images/CSGO_VPN.jpg</file>
+        <file>Resources/images/PBUG_VPN.jpg</file>
+        <file>Resources/images/yinxiang.jpg</file>
+    </qresource>
+</RCC>
